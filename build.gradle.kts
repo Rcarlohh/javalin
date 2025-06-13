@@ -21,6 +21,10 @@ dependencies {
     implementation("org.webjars.npm:mdi__font:7.2.96")
     implementation("org.webjars:font-awesome:6.5.2")
     implementation("org.webjars.npm:roboto-fontface:0.10.0")
+
+    implementation("com.zaxxer:HikariCP:6.0.0")
+    implementation("org.firebirdsql.jdbc:jaybird:5.0.5.javal11")
+    implementation("com.github.seratch:kotlinquery:1.9.0")
 }
 
 tasks.test {

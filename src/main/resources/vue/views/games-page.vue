@@ -1,4 +1,4 @@
-<template id="game-page">
+<template id="games-page">
   <app-frame>
     <v-card class="ma-4 pa-2" elevation="4" rounded="lg">
       <v-data-iterator
@@ -12,7 +12,7 @@
             <v-text-field
               v-model="search"
               density="comfortable"
-              placeholder="Search"
+              placeholder="Search games..."
               prepend-inner-icon="mdi-magnify"
               style="max-width: 300px;"
               variant="solo"
@@ -50,9 +50,9 @@
                     <v-btn
                       class="text-none"
                       size="small"
-                      text="Read"
+                      text="Play"
                       variant="flat"
-                      border
+                      color="primary"
                     ></v-btn>
                   </div>
                 </v-card>

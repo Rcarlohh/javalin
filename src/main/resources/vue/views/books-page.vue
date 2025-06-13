@@ -1,4 +1,4 @@
-<template id="book-page">
+<template id="books-page">
   <app-frame>
     <v-sheet border rounded class="ma-4 pa-2">
       <v-data-table
