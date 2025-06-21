@@ -1,3 +1,4 @@
+
 import desserts.DessertController
 import io.javalin.Javalin
 import io.javalin.apibuilder.ApiBuilder.*
@@ -5,6 +6,7 @@ import io.javalin.http.staticfiles.Location
 import io.javalin.vue.VueComponent
 
 fun main() {
+
     val app = Javalin.create { config ->
         config.staticFiles.apply {
             enableWebjars()
